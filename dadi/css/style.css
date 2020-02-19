@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.riquadro {
+    background-color: white;
+    box-shadow: 3px 3px #888888;
+    padding: 40px;
+    text-align: center;
+}
