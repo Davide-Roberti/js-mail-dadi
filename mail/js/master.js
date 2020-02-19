@@ -18,7 +18,7 @@ for (var i = 0; i < indirizzoMail.length; i++) {
 }
 
 if (accesso == 'consentito') {
-    document.getElementById('conferma-accesso').innerHTML = 'puoi accedere';
+    document.getElementById('conferma-accesso').innerHTML = 'bentornato ' + mailUtente;
 } else {
     document.getElementById('conferma-accesso').innerHTML = 'non puoi accedere';
 }
