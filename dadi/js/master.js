@@ -4,10 +4,10 @@
 // altrimenti verificare se il secondo lancio è un numero maggiore rispetto al primo, in caso affermativo comunicare che ha vinto il secondo
 // altrimenti comunicare che c'è una situazione di parità
 
-var primoLancio = Math.round(Math.random()*6)+1;
+var primoLancio = Math.floor(Math.random()*6)+1;
 document.getElementById('primo-lancio').innerHTML = 'il primo lancio è: ' + primoLancio;
 
-var secondoLancio = Math.round(Math.random()*6)+1;
+var secondoLancio = Math.floor(Math.random()*6)+1;
 document.getElementById('secondo-lancio').innerHTML = 'il secondo lancio è: ' + secondoLancio;
 
 if (primoLancio > secondoLancio) {
